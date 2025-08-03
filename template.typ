@@ -1,10 +1,10 @@
-#import "@preview/flexible-resume:0.1.0": *
+#import "@local/flexible-resume:0.0.1": *
 
 #show: resume.with(
   name: "Your Full Name",
   email: "your.name@example.com",
   website: "yourwebsite.com",
-  phone: "+1 (555) 000-0000",
+  phone: "+1 (555) 000-000sdf0",
   profile-image: none,
   target-pages: 2,
   font: "Fira Sans",
@@ -13,17 +13,18 @@
 #section("Experience")[
   #experience(
     organization: "Company Name",
-    industry: "Industry Type",
+    industry: "Industry Type", 
     location: "City, State/Country",
     title: "Your Job Title",
     start-date: "Month Year",
     end-date: none,
-    priority: 1,
+    priority: 1, 
     items: (
       pitem(
         title: "Key Achievement",
         description: "Describe what you accomplished, including metrics and impact where possible.",
         priority: 1,
+
         languages: ("Technology", "Language"),
       ),
       pitem(

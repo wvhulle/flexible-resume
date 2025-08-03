@@ -4,7 +4,7 @@ categories = ["cv"]
 compiler = "0.13.0"
 description = "A flexible resume template with priority-based content filtering and adaptive page layouts"
 disciplines = ["computer-science", "mathematics", "engineering", "education"]
-entrypoint = "resume-template-style.typ"
+entrypoint = "resume.typ"
 keywords = [
     "resume",
     "cv",
@@ -17,6 +17,5 @@ keywords = [
 license = "MIT"
 name = "flexible-resume"
 repository = "https://github.com/wvhulle/flexible-resume"
-version = "0.1.0"
+version = "0.0.1"
 
-exclude = ["*.pdf", "profile.jpg"]
