@@ -74,39 +74,6 @@ Requires [Typst](https://typst.app/docs/tutorial/installation/).
 
 Programming languages in `pitem()` appear in monospace.
 
-## Example
-
-```typst
-#import "@local/flexible-resume:0.0.1": *
-
-#show: resume.with(
-  name: "Jane Doe", 
-  email: "jane@example.com",
-  website: "janedoe.dev", 
-  phone: "+1 555-0123",
-  profile-image: "profile.jpg", 
-  target-pages: 2,
-)
-
-#section("Experience")[
-  #experience(
-    organization: "Tech Corp",
-    location: "San Francisco, CA", 
-    title: "Senior Developer",
-    start-date: "2022", 
-    priority: 1,
-    items: (
-      pitem(
-        title: "Full-stack development",
-        description: "Led development of customer portal",
-        priority: 1, 
-        languages: ("React", "Node.js"),
-      ),
-    ),
-  )
-]
-```
-
 ## License
 
 MIT
